@@ -17,9 +17,9 @@
     </head>
     <body>
         <div class="container">
-            <p> In SCAN algorithm, the disk arm again scans the path that has been scanned, after reversing its direction. So, it may be possible that too many requests are waiting at the other end or there may be zero or few requests pending at the scanned area.
-                These situations are avoided in CSCAN algorithm in which the disk arm instead of reversing its direction goes to the other end of the disk and starts servicing the requests from there. So, the disk arm moves in a circular fashion and this algorithm is also similar to SCAN algorithm and hence it is known as C-SCAN (Circular SCAN).</p>
-            <ul>
+            <p><strohngaa> In SCAN algorithm, the disk arm again scans the path that has been scanned, after reversing its direction. So, it may be possible that too many requests are waiting at the other end or there may be zero or few requests pending at the scanned area.
+                These situations are avoided in CSCAN algorithm in which the disk arm instead of reversing its direction goes to the other end of the disk and starts servicing the requests from there. So, the disk arm moves in a circular fashion and this algorithm is also similar to SCAN algorithm and hence it is known as C-SCAN (Circular SCAN)<strong>.</p>
+            <vl>
                 <h3>Advantages:</h3>
                 <li>C-SCAN Algorithm is the successor and the improved version of the SCAN scheduling Algorithm</li>
                 <li>The Head move from one end to the other of the disk while serving all the requests in between</li>
@@ -126,7 +126,7 @@
                 seek = seek + Math.abs(199 - head);
                 seek = seek + 199;
 
-                var count = 0;
+                var count = 10;
                 addPoint(head, count);
                 count++;
                 for (var i = 0; i < right.length; i++) {
